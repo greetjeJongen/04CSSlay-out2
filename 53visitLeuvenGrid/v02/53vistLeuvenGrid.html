@@ -7,20 +7,41 @@
 </head>
 
 <body>
-    <h1>Grid Lay-out</h1>
-    <p>This week we focus on lay-out for large screen devices. So enlarge the browser window up to full screen width.</p>
+    <h1>Website Visit Leuven: Flex and Grid</h1>
+    <p>Use your solution of excercise 4.3 (visit leuven box model) as starting point. </p>
     <p>
         Only <strong>add</strong> CSS (don't <em>remove</em> lines) to accomplish these exercises. Sometimes you have to overrule previous lines. The cascade is your friend!
     </p>
 
-    <h2>Documentation</h2>
+    <h2>Display: flex</h2>
+    <p>Resize the browser window to 800px (small tablet landscape).</p>
+    <h3>Documentation</h3>
+    <ul>
+        <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">https://css-tricks.com/snippets/css/a-guide-to-flexbox/</a></li>
+        <li><a href="https://www.w3schools.com/css/css3_flexbox.asp">https://www.w3schools.com/css/css3_flexbox.asp</a></li>
+
+    </ul>
+    <h3>Exercise</h3>
+    <p>Create a flexible horizontal navigation menu using <strong>display:flex</strong>. Take the following requirements into account:</p>
+    <ul>
+        <li>The menu items should be evenly distributed over the total width of header</li>
+        <li>Not only the text of a menu-item should be clickable, also the (invisible) space around the text. In fact every click in the overlay zone should lead to a webpage.</li>
+        <li>When a menu item is hovered, the item is highlighted by a border.</li>
+        <li>Valid CSS.</li>
+        <li>Do you prefer a smooth transition or more subtle effects? Try to implement it yourself, take a look at <a href="https://www.w3schools.com/css/css3_transitions.asp">https://www.w3schools.com/css/css3_transitions.asp</a>.
+        </li>
+
+    </ul>
+
+    <h2>Display: grid</h2>
+    <h3>Documentation</h3>
     <ul>
         <li><a href="https://css-tricks.com/snippets/css/complete-guide-grid/">Complete guide to grid</a></li>
         <li><a href="https://gridbyexample.com/learn/">Grid by Example</a> by R. Andrew</li>
         <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout">MDN Web Docs about CSS Grid Layout</a></li>
     </ul>
 
-    <h2>General view</h2>
+    <h3>General view</h3>
     <ul>
         <li>(p. 283, 293) In full screen width, the paragraphs are too wide and as a result become difficult to read. Resize the content of the webpage to a maximal width of 960px. Center the webpage horizontally.</li>
         <li>(p. 286, 292) The main content should be outlined in the same way as header and footer. <strong>Add</strong> (don't <em>remove</em>) CSS to remove redundant white space at the left and right.
@@ -32,7 +53,7 @@
         <li>(p. 295-300, 305) In the footer there is plenty of space to put all content. Write CSS to obtain the result of the screenshot.</li>
     </ul>
 
-    <h2>Home</h2>
+    <h3>Home</h3>
     <p>These exercises focus on ‘home.html’.</p>
     <ul>
         <li>(<a href="https://gridbyexample.com/patterns/header-twocol-footer/">documentation</a>) Use <code>display: grid</code> to position the main content (text: “This is Leuven”) and the aside (“Events”). The main content uses two third of the available width. Between main and aside, there is an empty space of 20px. Add the necessary <code>div</code>'s and <code>id</code>'s. <em>REMARK</em> In the example of the documentation, both header and footer are part of the grid. This is abundant and should be omitted.
@@ -41,12 +62,12 @@
             <br>(REMARK) When you make your own project, you can make the positioning even more simple by adding an extra div around the two events.
         </li>
     </ul>
-    <h2>Places Of Interest</h2>
+    <h3>Places Of Interest</h3>
     <ul>
         <li>(<a href="https://gridbyexample.com/examples/example17/">documentation</a>) Write CSS in order to put all articles in a grid. All blocks have the same width and height. Add a gap of 20px between rows and columns.</li>
         <li>Hide the “to-top”-navigation.</li>
     </ul>
-    <h2>Famous Inhabitants</h2>
+    <h3>Famous Inhabitants</h3>
     <p>REMARK Normally, we should make the lay-out of this page similar to that of “Places Of Interest”. However, this concerns an exercise. Therefore, we create a slightly different lay-out for “Famous Inhabitants”.
     </p>
     <ul>
