@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb4677e7-cdf4-41bd-9984-6f340d1edfad" name="Default Changelist" comment="">
+    <list default="true" id="bb4677e7-cdf4-41bd-9984-6f340d1edfad" name="Default Changelist" comment=".">
       <change beforePath="$PROJECT_DIR$/41playingWithFlex/41trainingFlex.html" beforeDir="false" afterPath="$PROJECT_DIR$/41playingWithFlex/41trainingFlex.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/41playingWithFlex/flexSolution.html" beforeDir="false" afterPath="$PROJECT_DIR$/41playingWithFlex/flexSolution.html" afterDir="false" />
     </list>
@@ -15,7 +15,7 @@
     <session id="-2023470336">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.opened" value="3" />
@@ -24,28 +24,28 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="4" />
-          <entry key="html" value="9" />
+          <entry key="html" value="10" />
           <entry key="png" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="4" />
-          <entry key="HTML" value="9" />
+          <entry key="HTML" value="10" />
           <entry key="Image" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="65" />
-          <entry key="html" value="413" />
+          <entry key="html" value="497" />
           <entry key="txt" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="65" />
-          <entry key="HTML" value="413" />
+          <entry key="HTML" value="497" />
           <entry key="PLAIN_TEXT" value="30" />
         </counts>
       </usages-collector>
@@ -62,11 +62,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/41playingWithFlex/flexSolution.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="74" lean-forward="true" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="74" />
+            <state relative-caret-position="90">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/52playingWithGrid/52playingWithGrid.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="127" selection-start-line="17" selection-start-column="127" selection-end-line="17" selection-end-column="127" />
             </state>
           </provider>
         </entry>
@@ -83,6 +92,7 @@
         <option value="$PROJECT_DIR$/42JanNavigatie/opgave.html" />
         <option value="$PROJECT_DIR$/41playingWithFlex/41trainingFlex.html" />
         <option value="$PROJECT_DIR$/41playingWithFlex/flexSolution.html" />
+        <option value="$PROJECT_DIR$/52playingWithGrid/52playingWithGrid.html" />
       </list>
     </option>
   </component>
@@ -116,6 +126,11 @@
               <item name="oefeningen" type="b2602c69:ProjectViewProjectNode" />
               <item name="oefeningen" type="462c0819:PsiDirectoryNode" />
               <item name="41playingWithFlex" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oefeningen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oefeningen" type="462c0819:PsiDirectoryNode" />
+              <item name="52playingWithGrid" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -159,7 +174,7 @@
       <updated>1535467053699</updated>
       <workItem from="1535467055584" duration="52000" />
       <workItem from="1535467129061" duration="5020000" />
-      <workItem from="1535531248144" duration="321000" />
+      <workItem from="1535531248144" duration="1963000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1535470658402</created>
@@ -196,11 +211,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535530886654</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary=".">
+      <created>1535531880788</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1535531880788</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5393000" />
+    <option name="totallyTimeSpent" value="7035000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -213,8 +235,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -227,11 +250,11 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4983845" visible="true" weight="0.329927" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4983845" weight="0.329927" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49919224" weight="0.329927" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="9" sideWeight="0.5016155" side_tool="true" visible="true" weight="0.329927" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49919224" weight="0.329927" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5016155" side_tool="true" visible="true" weight="0.329927" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4983845" visible="true" weight="0.329927" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -279,9 +302,6 @@
     <entry file="file://$PROJECT_DIR$/42JanNavigatie/screenshots/screenshot1.png" />
     <entry file="file://$PROJECT_DIR$/42JanNavigatie/screenshots/screenshot3.png" />
     <entry file="file://$PROJECT_DIR$/42JanNavigatie/screenshots/screenshot4.png" />
-    <entry file="file://$PROJECT_DIR$/52playingWithGrid/52playingWithGrid.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/53visitLeuvenGrid/v02/53vistLeuvenGrid.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5">
@@ -298,8 +318,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/41playingWithFlex/flexSolution.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="74" lean-forward="true" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="74" />
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/52playingWithGrid/52playingWithGrid.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="127" selection-start-line="17" selection-start-column="127" selection-end-line="17" selection-end-column="127" />
         </state>
       </provider>
     </entry>
