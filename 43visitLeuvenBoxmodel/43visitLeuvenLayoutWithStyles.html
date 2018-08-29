@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Layout with Styles</title>
+</head>
+
+<body>
+    <h1>Website “Visit Leuven”: Layout with Styles</h1>
+
+    <p>So far you used CSS to style text, background etc. In this excercise we focus on blocks and their position in relation to each other. However, ‘real’ positioning using flex and grid is not yet discussed. We'll put those into practice next week.</p>
+
+    <p>The exercises below target CSS only. You have to extend the given CSS in order to obtain the required presentation/screenshots. Do not change any HTML, <em>unless</em> explicitly asked. In particular, adding extra id's or classes is prohibited.</p>
+
+    <p>In previous exercises, we asked you to limit the screen width up to 400px. This week, you should put the screen width to 600px (tablet portrait) and wider (last exercise). Make a copy of the CSS-for-small-devices since we will need it again in a few weeks.</p>
+
+    <h2>Position: absolute</h2>
+    <h3>Documentation</h3>
+    <ul>
+        <li>Chapter 11 p. 302</li>
+        
+    </ul>
+
+    <h3>Exercise</h3>
+    <ul>
+        <li>(home.html) Use <code><strong>position:absolute</strong></code> to put <code>h1</code> at the right bottom corner of the <code>header</code>. Put the <code>nav</code> to the left top of the <code>header</code>. Does the background-image of the header seem to disappear? Use the inspector tool to find the height of <code>header</code> and explain. Fix the problem by setting the height of the header equal to the height of the background-image.</li>
+        <li>Please note the menu-items will appear as a vertical list. In the last exercise (display:flex) the menu-items will be placed horizontally as shown in the screenshot.</li>
+        <li> Add a ‘Like Button’ of Facebook to the <code>footer</code>, on the right at the bottom of the page. Use the image ‘vindIkLeuk.png’ you can find in the zip. HTML: add the image to home.html. CSS: use postion: absolute. If the button appears at the left-hand side of the page in stead of the right-hand side, you made a typical beginner mistake. Adjust the code to obtain the desired result. At this moment, don't worry that the button does not work (see extra exercise below).</li>
+        <li>Validate HTML and CSS.</li>
+
+    </ul>
+
+    <h2>Float</h2>
+    <h3>Documentation</h3>
+    <ul>
+        <li>Chapter 11 p. 295</li>
+    </ul>
+
+    <h3>Exercise</h3>
+    <p>This exercise concerns the page placesOfInterest.html.</p>
+    <p>Use the <strong>float property</strong> to restyle this page according to the screenshot.
+    </p>
+    <ul>
+        <li>Use the correct CSS-selector in a way that your CSS only impacts the images of Places Of Interest.</li>
+        <li>Be aware of the correct position of the headings of each article. Reading and implementing p. 298 assures the desired position/behaviour of the headings.
+        </li>
+        <li>(p. 286, 292) Add padding/margin to the appropriate element(s) such that text neither heading is sticking to the image. Write as little code as possible.</li>
+        <li>Write code to position the arrow “to top” at the right bottom of each article, below the image (see screenshot).</li>
+        <li>Validate CSS.</li>
+    </ul>
+
+    <h2>Display: flex</h2>
+    <p>Resize the browser window to 800px (small tablet landscape).</p>
+    <h3>Documentation</h3>
+    <ul>
+        <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">https://css-tricks.com/snippets/css/a-guide-to-flexbox/</a></li>
+        <li><a href="https://www.w3schools.com/css/css3_flexbox.asp">https://www.w3schools.com/css/css3_flexbox.asp</a></li>
+
+    </ul>
+    <h3>Exercise</h3>
+    <p>Create a flexible horizontal navigation menu using <strong>display:flex</strong>. Take the following requirements into account:</p>
+    <ul>
+        <li>The menu items should be evenly distributed over the total width of header</li>
+        <li>Not only the text of a menu-item should be clickable, also the (invisible) space around the text. In fact every click in the overlay zone should lead to a webpage.</li>
+        <li>When a menu item is hovered, the item is highlighted by a border.</li>
+        <li>Valid CSS.</li>
+        <li>Do you prefer a smooth transition or more subtle effects? Try to implement it yourself, take a look at <a href="https://www.w3schools.com/css/css3_transitions.asp">https://www.w3schools.com/css/css3_transitions.asp</a>.
+        </li>
+
+    </ul>
+    
+    <h2>Extra</h2>
+    <h3>Documentation</h3>
+    <ul>
+        <li><a href="https://developers.facebook.com/docs/plugins/like-button#configurator">https://developers.facebook.com/docs/plugins/like-button#configurator</a></li>
+    </ul>
+    
+    <h3>Exercise</h3>
+    <p>Make the like-button of Facebook working. See <a href="https://developers.facebook.com/docs/plugins/like-button#configurator">the facebook like-button-configurator</a> for the necessary code. You have to replace the image ‘vindIkLeuk.png’ by the code of the configurator.</p>
+
+</body>
+
+</html>

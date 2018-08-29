@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: lobster, sans-serif;
+	font-size: 130%;
+}
+
+blockquote {
+	border: 10px solid transparent;
+	border-image: url(../border.png) 30 stretch;
+	width: calc(100%/ 3);
+	text-align: center;
+	padding: 2vh;
+}
+
+div#wrapper {
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	/* 3d screenshot: flex-direction: column; */
+	justify-content: space-between;
+	align-items: center;
+	background-color: #DDD;
+}

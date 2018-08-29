@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Grid Layout</title>
+</head>
+
+<body>
+    <h1>Grid Lay-out</h1>
+    <p>This week we focus on lay-out for large screen devices. So enlarge the browser window up to full screen width.</p>
+    <p>
+        Only <strong>add</strong> CSS (don't <em>remove</em> lines) to accomplish these exercises. Sometimes you have to overrule previous lines. The cascade is your friend!
+    </p>
+
+    <h2>Documentation</h2>
+    <ul>
+        <li><a href="https://css-tricks.com/snippets/css/complete-guide-grid/">Complete guide to grid</a></li>
+        <li><a href="https://gridbyexample.com/learn/">Grid by Example</a> by R. Andrew</li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout">MDN Web Docs about CSS Grid Layout</a></li>
+    </ul>
+
+    <h2>General view</h2>
+    <ul>
+        <li>(p. 283, 293) In full screen width, the paragraphs are too wide and as a result become difficult to read. Resize the content of the webpage to a maximal width of 960px. Center the webpage horizontally.</li>
+        <li>(p. 286, 292) The main content should be outlined in the same way as header and footer. <strong>Add</strong> (don't <em>remove</em>) CSS to remove redundant white space at the left and right.
+        </li>
+        <li>Resize the browser screen for a brief moment smaller than 960px. All content stitches to the border of the browser window. We will solve this problem later on. Now return to the previous (wide) version of the browser window.</li>
+        <li>For this exercise you may safely assume the user has a desktop computer with a fast internet connection. Therefor the small background-image of the header can be replaced by the large one.</li>
+        <li>(p. 282) Resize the area of the title <code>h1</code> to half of the width of the header.
+        </li>
+        <li>(p. 295-300, 305) In the footer there is plenty of space to put all content. Write CSS to obtain the result of the screenshot.</li>
+    </ul>
+
+    <h2>Home</h2>
+    <p>These exercises focus on ‘home.html’.</p>
+    <ul>
+        <li>(<a href="https://gridbyexample.com/patterns/header-twocol-footer/">documentation</a>) Use <code>display: grid</code> to position the main content (text: “This is Leuven”) and the aside (“Events”). The main content uses two third of the available width. Between main and aside, there is an empty space of 20px. Add the necessary <code>div</code>'s and <code>id</code>'s. <em>REMARK</em> In the example of the documentation, both header and footer are part of the grid. This is abundant and should be omitted.
+        </li>
+        <li>Use <code>display: grid</code> to position both events in the aside. Don't add any code to the html-document. Use the existing id's, classes, ... The title (<code>h2</code>) takes a height of 4em. There is a gap of 20px between both columns.
+            <br>(REMARK) When you make your own project, you can make the positioning even more simple by adding an extra div around the two events.
+        </li>
+    </ul>
+    <h2>Places Of Interest</h2>
+    <ul>
+        <li>(<a href="https://gridbyexample.com/examples/example17/">documentation</a>) Write CSS in order to put all articles in a grid. All blocks have the same width and height. Add a gap of 20px between rows and columns.</li>
+        <li>Hide the “to-top”-navigation.</li>
+    </ul>
+    <h2>Famous Inhabitants</h2>
+    <p>REMARK Normally, we should make the lay-out of this page similar to that of “Places Of Interest”. However, this concerns an exercise. Therefore, we create a slightly different lay-out for “Famous Inhabitants”.
+    </p>
+    <ul>
+        <li><em>Add</em> CSS that removes bullets and stars etc before the list-items.</li>
+        <li>Position main and aside in similar way as home. Write as little CSS as possible.</li>
+        <li>(<a href="https://www.w3schools.com/cssref/css_selectors.asp">CSS Selector Reference</a>, p. 295-300, p. 305) Position images alternately left and right using <code>float</code>. Don't add any div, class, id etc in html. Be aware that the next title is positioned <em>below</em> the previous image. Provide space between images and text (no sticky stuff).
+        </li>
+        <li>(use the technique explained at p. 396) Add the swirls between the list-items using <code>background-image</code>. Don't add extra html-code.
+        </li>
+    </ul>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ul for navigation</title>
+    <style>
+        code {
+            font-size: 1.25em
+        }
+    </style>
+</head>
+<body>
+<h1>Styling a list for navigation</h1>
+<p>It makes perfect sense to use a <code>ul</code> for a main navigation block. After all, isn't that a list of links?
+</p>
+<p>So we start with the html file “navigation.html”, which is essentially a <code>ul</code> with 5 <code>li</code>
+    wrapped in a <code>nav</code> element. The only thing you are allowed to change in this file is adding a stylesheet
+    <code>link</code> in the <code>head</code>.</p>
+</body>
+
+<h2>Version 1: nav for small screen</h2>
+<p>Make a new CSS file (“style_mobilefirst.css”) to obtain screenshot1.</p>
+<p>A few remarks:</p>
+<ul>
+    <li>The different <code>li</code> elements are seperated by a small line</li>
+    <li>The active link (the page where you are right now) has a ‘reversed effect’: dark letter on light background.
+    </li>
+    <li>The complete box of the <code>li</code> has to be clickable.</li>
+    <li>Hovering over a link produces a color background color change. Make this even more nice by adding a transition
+        of .3 seconds! (Documentation: <a href="https://www.w3schools.com/css/css3_transitions.asp">W3Schools on
+            transition</a>)
+    </li>
+</ul>
+
+
+<h2>Version 2: Horizontal nav with <code>display: inline-block</code></h2>
+<p>Make the list items <code>inline-block</code> to obtain the result in “screenshot2”.</p>
+
+
+<p>There might be a problem with your solution to version 2. Perhaps you can spot a small gap between the list items.
+    Try to find out where this gap comes from by using the developer tools (of FirefoxDevEdition).</p>
+
+<p>If you try to fill the entire width of the screen with the five list items by setting the <code>width</code> of every
+    <code>li</code> to 20%, you see how annoying this little gap between the li's becomes. Five times 20% + 4 times a
+    small gap is greater than 100%.</p>
+
+<p>This problem is documented in <a href="https://css-tricks.com/fighting-the-space-between-inline-block-elements/">an
+    article on CSS-tricks</a>, which also provides some solutions.</p>
+
+<p>Try some of these solutions which involve changing the html code of the list somewhat. The result should look like
+    “screenshot3”, with no gap between the list items.</p>
+
+<p>Make the list items <code>inline</code> and not <code>inline-block</code>. Describe the differences. (Documentation:
+    <a href="https://medium.com/@DaphneWatson/css-display-properties-block-inline-and-inline-block-how-to-tell-the-difference-7d3a1e6e3051">medium.com</a>)
+</p>
+
+<h2>Ultimate Version: Horizontal nav with flex</h2>
+<p>The previous versions are OK, but they don't give you a lot of <code>flex</code>ibility. Flexbox to the rescue! Might
+    we suggest you use flexbox at least in one place in your own site? The main navigation would be an excellent choice.
+</p>
+
+<p>Change your CSS code to obtain “screenshot4”. Make the <code>ul</code> a flex container. Play around with different
+    values for <code>justify-content</code>.</p>
+
+<p>Make the flex items a third the size of the browser window and get the result of “screenshot5” in only of few lines
+    of added code.</p>
+</html>

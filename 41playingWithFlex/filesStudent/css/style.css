@@ -1,0 +1,14 @@
+
+html {
+    font-family: lobster, sans-serif;
+    font-size: 130%;
+}
+
+blockquote {
+	border: 10px solid transparent;
+	border-image: url(../border.png) 30 stretch;
+	width: calc(100%/3);
+	text-align: center; /* center text in blockquote */
+	padding: 2vh; /* padding depends on available space on screen */
+}
+
